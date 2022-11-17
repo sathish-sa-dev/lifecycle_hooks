@@ -2,7 +2,7 @@
 
 LIFECYCLE_HOOK="$1"
 
-CONTENTS="$LIFECYCLE_HOOK-`date +%y-%m-%d_%T.%N`"
+CONTENTS="`date +%y-%m-%d_%T.%N`-$LIFECYCLE_HOOK"
 echo $CONTENTS
 touch $CONTENTS
 
