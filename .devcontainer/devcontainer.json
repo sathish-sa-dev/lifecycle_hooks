@@ -1,5 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": ".devcontainer/postCreateCommand.sh > postCreateCommand.txt",
-  "onCreateCommand": ".devcontainer/onCreateCommand.sh > onCreateCommand.txt"
+  "initializeCommand": ".devcontainer/run.sh initializeCommand",
+  "onCreateCommand": ".devcontainer/run.sh onCreateCommand",
+  "updateContentCommand": ".devcontainer/run.sh updateContentCommand",
+  "postCreateCommand": ".devcontainer/run.sh postCreateCommand",
+  "postStartCommand": ".devcontainer/run.sh postStartCommand",
+  "postAttachCommand": ".devcontainer/run.sh postAttachCommand"
 }
