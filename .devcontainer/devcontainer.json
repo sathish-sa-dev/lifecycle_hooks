@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh > postCreateCommand.txt",
+  "onCreateCommand": ".devcontainer/onCreateCommand.sh > onCreateCommand.txt",
+}
