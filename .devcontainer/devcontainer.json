@@ -5,5 +5,9 @@
   "updateContentCommand": ".devcontainer/run.sh updateContentCommand",
   "postCreateCommand": ".devcontainer/run.sh postCreateCommand",
   "postStartCommand": ".devcontainer/run.sh postStartCommand",
-  "postAttachCommand": ".devcontainer/run.sh postAttachCommand"
+  "postAttachCommand": ".devcontainer/run.sh postAttachCommand",
+   "features": {
+     "ghcr.io/codspace/features-with-lifecycle-hooks/a": {},
+     "ghcr.io/codspace/features-with-lifecycle-hooks/b": {}
+   }
 }
